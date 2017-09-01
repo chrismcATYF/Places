@@ -8,11 +8,13 @@
 
 /* Begin PBXBuildFile section */
 		19029B301F58FF650097E2EB /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 19029B2F1F58FF650097E2EB /* AppDelegate.swift */; };
-		19029B321F58FF650097E2EB /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 19029B311F58FF650097E2EB /* ViewController.swift */; };
+		19029B321F58FF650097E2EB /* Places.swift in Sources */ = {isa = PBXBuildFile; fileRef = 19029B311F58FF650097E2EB /* Places.swift */; };
 		19029B351F58FF650097E2EB /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 19029B331F58FF650097E2EB /* Main.storyboard */; };
 		19029B371F58FF650097E2EB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 19029B361F58FF650097E2EB /* Assets.xcassets */; };
 		19029B3A1F58FF650097E2EB /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 19029B381F58FF650097E2EB /* LaunchScreen.storyboard */; };
 		19029B451F58FF650097E2EB /* PlacesTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 19029B441F58FF650097E2EB /* PlacesTests.swift */; };
+		19F9799B1F59117B00CAAAC8 /* SWRevealViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 19F9799A1F59117B00CAAAC8 /* SWRevealViewController.m */; };
+		19F9799E1F59151800CAAAC8 /* RoundedBtn.swift in Sources */ = {isa = PBXBuildFile; fileRef = 19F9799D1F59151800CAAAC8 /* RoundedBtn.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -28,7 +30,7 @@
 /* Begin PBXFileReference section */
 		19029B2C1F58FF650097E2EB /* Places.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Places.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		19029B2F1F58FF650097E2EB /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		19029B311F58FF650097E2EB /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		19029B311F58FF650097E2EB /* Places.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Places.swift; sourceTree = "<group>"; };
 		19029B341F58FF650097E2EB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		19029B361F58FF650097E2EB /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		19029B391F58FF650097E2EB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -36,6 +38,10 @@
 		19029B401F58FF650097E2EB /* PlacesTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PlacesTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		19029B441F58FF650097E2EB /* PlacesTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlacesTests.swift; sourceTree = "<group>"; };
 		19029B461F58FF650097E2EB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		19F979981F59117A00CAAAC8 /* Places-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Places-Bridging-Header.h"; sourceTree = "<group>"; };
+		19F979991F59117B00CAAAC8 /* SWRevealViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SWRevealViewController.h; sourceTree = "<group>"; };
+		19F9799A1F59117B00CAAAC8 /* SWRevealViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SWRevealViewController.m; sourceTree = "<group>"; };
+		19F9799D1F59151800CAAAC8 /* RoundedBtn.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RoundedBtn.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -77,12 +83,14 @@
 		19029B2E1F58FF650097E2EB /* Places */ = {
 			isa = PBXGroup;
 			children = (
+				19F9799C1F5914FB00CAAAC8 /* View */,
+				19F979971F59110B00CAAAC8 /* Controllers */,
 				19029B2F1F58FF650097E2EB /* AppDelegate.swift */,
-				19029B311F58FF650097E2EB /* ViewController.swift */,
 				19029B331F58FF650097E2EB /* Main.storyboard */,
 				19029B361F58FF650097E2EB /* Assets.xcassets */,
 				19029B381F58FF650097E2EB /* LaunchScreen.storyboard */,
 				19029B3B1F58FF650097E2EB /* Info.plist */,
+				19F979961F5910F800CAAAC8 /* Supporting Files */,
 			);
 			path = Places;
 			sourceTree = "<group>";
@@ -94,6 +102,32 @@
 				19029B461F58FF650097E2EB /* Info.plist */,
 			);
 			path = PlacesTests;
+			sourceTree = "<group>";
+		};
+		19F979961F5910F800CAAAC8 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				19F979991F59117B00CAAAC8 /* SWRevealViewController.h */,
+				19F9799A1F59117B00CAAAC8 /* SWRevealViewController.m */,
+				19F979981F59117A00CAAAC8 /* Places-Bridging-Header.h */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		19F979971F59110B00CAAAC8 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				19029B311F58FF650097E2EB /* Places.swift */,
+			);
+			name = Controllers;
+			sourceTree = "<group>";
+		};
+		19F9799C1F5914FB00CAAAC8 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				19F9799D1F59151800CAAAC8 /* RoundedBtn.swift */,
+			);
+			name = View;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -147,6 +181,7 @@
 					19029B2B1F58FF650097E2EB = {
 						CreatedOnToolsVersion = 8.3.2;
 						DevelopmentTeam = E8W6XDS66Q;
+						LastSwiftMigration = 0830;
 						ProvisioningStyle = Automatic;
 					};
 					19029B3F1F58FF650097E2EB = {
@@ -201,8 +236,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				19029B321F58FF650097E2EB /* ViewController.swift in Sources */,
+				19F9799E1F59151800CAAAC8 /* RoundedBtn.swift in Sources */,
+				19029B321F58FF650097E2EB /* Places.swift in Sources */,
 				19029B301F58FF650097E2EB /* AppDelegate.swift in Sources */,
+				19F9799B1F59117B00CAAAC8 /* SWRevealViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -343,11 +380,14 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
 				DEVELOPMENT_TEAM = E8W6XDS66Q;
 				INFOPLIST_FILE = Places/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "Chris-McDonald.Places";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "Places/Places-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 3.0;
 			};
 			name = Debug;
@@ -356,11 +396,13 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
 				DEVELOPMENT_TEAM = E8W6XDS66Q;
 				INFOPLIST_FILE = Places/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "Chris-McDonald.Places";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "Places/Places-Bridging-Header.h";
 				SWIFT_VERSION = 3.0;
 			};
 			name = Release;
@@ -414,6 +456,7 @@
 				19029B4B1F58FF650097E2EB /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		19029B4C1F58FF650097E2EB /* Build configuration list for PBXNativeTarget "PlacesTests" */ = {
 			isa = XCConfigurationList;
@@ -422,6 +465,7 @@
 				19029B4E1F58FF650097E2EB /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
