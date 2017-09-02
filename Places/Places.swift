@@ -14,5 +14,10 @@ class PlacesVC: UIViewController {
         super.viewDidLoad()
         
     }
+    
+    func setuoView() {
+        
+    }
+    
 }
 
