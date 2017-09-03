@@ -13,6 +13,13 @@
 		19029B371F58FF650097E2EB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 19029B361F58FF650097E2EB /* Assets.xcassets */; };
 		19029B3A1F58FF650097E2EB /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 19029B381F58FF650097E2EB /* LaunchScreen.storyboard */; };
 		19029B451F58FF650097E2EB /* PlacesTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 19029B441F58FF650097E2EB /* PlacesTests.swift */; };
+		19AD74D21F5B816D00681A5D /* IntroVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 19AD74D11F5B816D00681A5D /* IntroVC.swift */; };
+		19AD74D41F5BB90B00681A5D /* FindCampVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 19AD74D31F5BB90B00681A5D /* FindCampVC.swift */; };
+		19AD74D61F5BB93500681A5D /* RateCampVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 19AD74D51F5BB93500681A5D /* RateCampVC.swift */; };
+		19AD74D81F5BB97D00681A5D /* CampChatVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 19AD74D71F5BB97D00681A5D /* CampChatVC.swift */; };
+		19AD74DA1F5BBA6900681A5D /* GradientView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 19AD74D91F5BBA6900681A5D /* GradientView.swift */; };
+		19AD74DE1F5BC2BA00681A5D /* RoundedView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 19AD74DD1F5BC2BA00681A5D /* RoundedView.swift */; };
+		19AD74E01F5BC59600681A5D /* CircleBtn.swift in Sources */ = {isa = PBXBuildFile; fileRef = 19AD74DF1F5BC59600681A5D /* CircleBtn.swift */; };
 		19F9799B1F59117B00CAAAC8 /* SWRevealViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 19F9799A1F59117B00CAAAC8 /* SWRevealViewController.m */; };
 		19F9799E1F59151800CAAAC8 /* RoundedBtn.swift in Sources */ = {isa = PBXBuildFile; fileRef = 19F9799D1F59151800CAAAC8 /* RoundedBtn.swift */; };
 /* End PBXBuildFile section */
@@ -38,6 +45,13 @@
 		19029B401F58FF650097E2EB /* PlacesTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PlacesTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		19029B441F58FF650097E2EB /* PlacesTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlacesTests.swift; sourceTree = "<group>"; };
 		19029B461F58FF650097E2EB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		19AD74D11F5B816D00681A5D /* IntroVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = IntroVC.swift; sourceTree = "<group>"; };
+		19AD74D31F5BB90B00681A5D /* FindCampVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FindCampVC.swift; sourceTree = "<group>"; };
+		19AD74D51F5BB93500681A5D /* RateCampVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RateCampVC.swift; sourceTree = "<group>"; };
+		19AD74D71F5BB97D00681A5D /* CampChatVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CampChatVC.swift; sourceTree = "<group>"; };
+		19AD74D91F5BBA6900681A5D /* GradientView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GradientView.swift; sourceTree = "<group>"; };
+		19AD74DD1F5BC2BA00681A5D /* RoundedView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RoundedView.swift; sourceTree = "<group>"; };
+		19AD74DF1F5BC59600681A5D /* CircleBtn.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CircleBtn.swift; sourceTree = "<group>"; };
 		19F979981F59117A00CAAAC8 /* Places-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Places-Bridging-Header.h"; sourceTree = "<group>"; };
 		19F979991F59117B00CAAAC8 /* SWRevealViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SWRevealViewController.h; sourceTree = "<group>"; };
 		19F9799A1F59117B00CAAAC8 /* SWRevealViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SWRevealViewController.m; sourceTree = "<group>"; };
@@ -118,6 +132,10 @@
 			isa = PBXGroup;
 			children = (
 				19029B311F58FF650097E2EB /* Places.swift */,
+				19AD74D11F5B816D00681A5D /* IntroVC.swift */,
+				19AD74D31F5BB90B00681A5D /* FindCampVC.swift */,
+				19AD74D51F5BB93500681A5D /* RateCampVC.swift */,
+				19AD74D71F5BB97D00681A5D /* CampChatVC.swift */,
 			);
 			name = Controllers;
 			sourceTree = "<group>";
@@ -126,6 +144,9 @@
 			isa = PBXGroup;
 			children = (
 				19F9799D1F59151800CAAAC8 /* RoundedBtn.swift */,
+				19AD74D91F5BBA6900681A5D /* GradientView.swift */,
+				19AD74DD1F5BC2BA00681A5D /* RoundedView.swift */,
+				19AD74DF1F5BC59600681A5D /* CircleBtn.swift */,
 			);
 			name = View;
 			sourceTree = "<group>";
@@ -236,10 +257,17 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				19AD74D21F5B816D00681A5D /* IntroVC.swift in Sources */,
 				19F9799E1F59151800CAAAC8 /* RoundedBtn.swift in Sources */,
+				19AD74D61F5BB93500681A5D /* RateCampVC.swift in Sources */,
 				19029B321F58FF650097E2EB /* Places.swift in Sources */,
 				19029B301F58FF650097E2EB /* AppDelegate.swift in Sources */,
+				19AD74D81F5BB97D00681A5D /* CampChatVC.swift in Sources */,
+				19AD74D41F5BB90B00681A5D /* FindCampVC.swift in Sources */,
 				19F9799B1F59117B00CAAAC8 /* SWRevealViewController.m in Sources */,
+				19AD74DE1F5BC2BA00681A5D /* RoundedView.swift in Sources */,
+				19AD74DA1F5BBA6900681A5D /* GradientView.swift in Sources */,
+				19AD74E01F5BC59600681A5D /* CircleBtn.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

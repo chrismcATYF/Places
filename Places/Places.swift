@@ -12,12 +12,18 @@ class PlacesVC: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
+        self.revealViewController().rearViewRevealWidth = self.view.frame.size.width - 30
+    }
+    
+    @IBAction func findCampPressed(_ sender: Any) {
         
     }
     
-    func setuoView() {
+    @IBAction func rateCampPressed(_ sender: Any) {
         
     }
     
+    @IBAction func campChatPressed(_ sender: Any) {
+        
+    }
 }
-
