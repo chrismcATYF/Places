@@ -16,14 +16,14 @@ class PlacesVC: UIViewController {
     }
     
     @IBAction func findCampPressed(_ sender: Any) {
-        
+        performSegue(withIdentifier: TO_FIND_CAMP, sender: nil)
     }
     
     @IBAction func rateCampPressed(_ sender: Any) {
-        
+        performSegue(withIdentifier: TO_RATE_CAMP, sender: nil)
     }
     
     @IBAction func campChatPressed(_ sender: Any) {
-        
+        performSegue(withIdentifier: TO_CAMP_CHAT, sender: nil)
     }
 }

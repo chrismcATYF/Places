@@ -9,10 +9,21 @@
 import UIKit
 
 class CampChatVC: UIViewController {
-
+    
+    @IBOutlet weak var usernameTxt: UITextField!
+    @IBOutlet weak var passwordTxt: UITextField!
+    
     override func viewDidLoad() {
         super.viewDidLoad()
         
+    }
+    
+    @IBAction func loginPressed(_ sender: Any) {
+        
+    }
+    
+    @IBAction func createAcctPressed(_ sender: Any) {
+        performSegue(withIdentifier: TO_CREATE_ACCOUNT, sender: nil)
     }
     
     @IBAction func closePressed(_ sender: Any) {
