@@ -22,6 +22,7 @@
 		19AD74E01F5BC59600681A5D /* CircleBtn.swift in Sources */ = {isa = PBXBuildFile; fileRef = 19AD74DF1F5BC59600681A5D /* CircleBtn.swift */; };
 		19CA31631F6246B1006D3D62 /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 19CA31621F6246B1006D3D62 /* Constants.swift */; };
 		19CA31651F6249D5006D3D62 /* CreateAcctVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 19CA31641F6249D5006D3D62 /* CreateAcctVC.swift */; };
+		19D2A42F1F65E87C007C3258 /* ChatVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 19D2A42E1F65E87C007C3258 /* ChatVC.swift */; };
 		19F9799B1F59117B00CAAAC8 /* SWRevealViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 19F9799A1F59117B00CAAAC8 /* SWRevealViewController.m */; };
 		19F9799E1F59151800CAAAC8 /* RoundedBtn.swift in Sources */ = {isa = PBXBuildFile; fileRef = 19F9799D1F59151800CAAAC8 /* RoundedBtn.swift */; };
 /* End PBXBuildFile section */
@@ -56,6 +57,7 @@
 		19AD74DF1F5BC59600681A5D /* CircleBtn.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CircleBtn.swift; sourceTree = "<group>"; };
 		19CA31621F6246B1006D3D62 /* Constants.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
 		19CA31641F6249D5006D3D62 /* CreateAcctVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CreateAcctVC.swift; sourceTree = "<group>"; };
+		19D2A42E1F65E87C007C3258 /* ChatVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ChatVC.swift; sourceTree = "<group>"; };
 		19F979981F59117A00CAAAC8 /* Places-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Places-Bridging-Header.h"; sourceTree = "<group>"; };
 		19F979991F59117B00CAAAC8 /* SWRevealViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SWRevealViewController.h; sourceTree = "<group>"; };
 		19F9799A1F59117B00CAAAC8 /* SWRevealViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SWRevealViewController.m; sourceTree = "<group>"; };
@@ -150,6 +152,7 @@
 				19AD74D51F5BB93500681A5D /* RateCampVC.swift */,
 				19AD74D71F5BB97D00681A5D /* CampChatVC.swift */,
 				19CA31641F6249D5006D3D62 /* CreateAcctVC.swift */,
+				19D2A42E1F65E87C007C3258 /* ChatVC.swift */,
 			);
 			name = Controllers;
 			sourceTree = "<group>";
@@ -273,6 +276,7 @@
 			files = (
 				19AD74D21F5B816D00681A5D /* IntroVC.swift in Sources */,
 				19CA31651F6249D5006D3D62 /* CreateAcctVC.swift in Sources */,
+				19D2A42F1F65E87C007C3258 /* ChatVC.swift in Sources */,
 				19F9799E1F59151800CAAAC8 /* RoundedBtn.swift in Sources */,
 				19AD74D61F5BB93500681A5D /* RateCampVC.swift in Sources */,
 				19029B321F58FF650097E2EB /* Places.swift in Sources */,

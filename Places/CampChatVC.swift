@@ -19,7 +19,7 @@ class CampChatVC: UIViewController {
     }
     
     @IBAction func loginPressed(_ sender: Any) {
-        
+        performSegue(withIdentifier: TO_CHAT, sender: nil)
     }
     
     @IBAction func createAcctPressed(_ sender: Any) {
