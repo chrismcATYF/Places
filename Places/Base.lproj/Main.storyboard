@@ -287,65 +287,105 @@
                         <viewControllerLayoutGuide type="top" id="KDM-dt-4Nd"/>
                         <viewControllerLayoutGuide type="bottom" id="XbJ-Vj-AEE"/>
                     </layoutGuides>
-                    <view key="view" contentMode="scaleToFill" id="ze1-Jl-jZ5" customClass="GradientView" customModule="Places" customModuleProvider="target">
+                    <view key="view" contentMode="scaleToFill" id="ze1-Jl-jZ5">
                         <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="8ux-2k-Vjr" customClass="RoundedView" customModule="Places" customModuleProvider="target">
-                                <rect key="frame" x="36" y="35" width="248" height="503"/>
+                            <imageView userInteractionEnabled="NO" contentMode="center" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="campImageBG" translatesAutoresizingMaskIntoConstraints="NO" id="zcA-Mx-BJc">
+                                <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+                            </imageView>
+                            <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" spacing="38" translatesAutoresizingMaskIntoConstraints="NO" id="QZw-TS-e8h">
+                                <rect key="frame" x="40" y="51" width="240" height="466"/>
                                 <subviews>
-                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="e4v-w3-h07" customClass="CircleBtn" customModule="Places" customModuleProvider="target">
-                                        <rect key="frame" x="8" y="8" width="30" height="30"/>
-                                        <color key="backgroundColor" red="0.32235518330000001" green="0.77761485330000002" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="8ux-2k-Vjr" customClass="RoundedView" customModule="Places" customModuleProvider="target">
+                                        <rect key="frame" x="0.0" y="0.0" width="240" height="130"/>
+                                        <subviews>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Find Campsite" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="elQ-Qh-o09">
+                                                <rect key="frame" x="60" y="10" width="120" height="25"/>
+                                                <constraints>
+                                                    <constraint firstAttribute="width" constant="120" id="ONT-EF-Dxh"/>
+                                                    <constraint firstAttribute="height" constant="25" id="fcP-8h-YvK"/>
+                                                </constraints>
+                                                <fontDescription key="fontDescription" name="AvenirNext-Medium" family="Avenir Next" pointSize="18"/>
+                                                <color key="textColor" red="0.88235294119999996" green="0.88235294119999996" blue="0.88235294119999996" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                                <nil key="highlightedColor"/>
+                                            </label>
+                                        </subviews>
+                                        <color key="backgroundColor" white="0.0" alpha="0.64541416952054798" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                         <constraints>
-                                            <constraint firstAttribute="height" constant="30" id="a60-YC-Pf0"/>
-                                            <constraint firstAttribute="width" constant="30" id="aYS-nL-rcB"/>
+                                            <constraint firstItem="elQ-Qh-o09" firstAttribute="top" secondItem="8ux-2k-Vjr" secondAttribute="top" constant="10" id="b9Q-aN-z8n"/>
+                                            <constraint firstItem="elQ-Qh-o09" firstAttribute="centerX" secondItem="8ux-2k-Vjr" secondAttribute="centerX" id="ezU-CD-CJa"/>
                                         </constraints>
-                                        <fontDescription key="fontDescription" name="AvenirNext-Medium" family="Avenir Next" pointSize="10"/>
-                                        <state key="normal" title="Close">
-                                            <color key="titleColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                                        </state>
-                                        <connections>
-                                            <action selector="closePressed:" destination="H9g-JM-gRi" eventType="touchUpInside" id="uAf-hU-aXY"/>
-                                        </connections>
-                                    </button>
-                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Find Campsite" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="elQ-Qh-o09">
-                                        <rect key="frame" x="64" y="13" width="120" height="25"/>
+                                        <userDefinedRuntimeAttributes>
+                                            <userDefinedRuntimeAttribute type="number" keyPath="cornerRadius">
+                                                <real key="value" value="20"/>
+                                            </userDefinedRuntimeAttribute>
+                                        </userDefinedRuntimeAttributes>
+                                    </view>
+                                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="WcO-Ue-md9" customClass="RoundedView" customModule="Places" customModuleProvider="target">
+                                        <rect key="frame" x="0.0" y="168" width="240" height="130"/>
+                                        <color key="backgroundColor" white="0.0" alpha="0.64541416949999997" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                         <constraints>
-                                            <constraint firstAttribute="width" constant="120" id="ONT-EF-Dxh"/>
-                                            <constraint firstAttribute="height" constant="25" id="fcP-8h-YvK"/>
+                                            <constraint firstAttribute="height" constant="130" id="443-6V-UuN"/>
+                                            <constraint firstAttribute="width" constant="240" id="WI9-RB-wbR"/>
                                         </constraints>
-                                        <fontDescription key="fontDescription" name="AvenirNext-Medium" family="Avenir Next" pointSize="18"/>
-                                        <color key="textColor" red="0.88235294119999996" green="0.88235294119999996" blue="0.88235294119999996" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                                        <nil key="highlightedColor"/>
-                                    </label>
+                                        <userDefinedRuntimeAttributes>
+                                            <userDefinedRuntimeAttribute type="number" keyPath="cornerRadius">
+                                                <real key="value" value="20"/>
+                                            </userDefinedRuntimeAttribute>
+                                        </userDefinedRuntimeAttributes>
+                                    </view>
+                                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="pjR-PX-TYK" customClass="RoundedView" customModule="Places" customModuleProvider="target">
+                                        <rect key="frame" x="0.0" y="336" width="240" height="130"/>
+                                        <color key="backgroundColor" white="0.0" alpha="0.64541416949999997" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                        <constraints>
+                                            <constraint firstAttribute="width" constant="240" id="7Q4-TZ-V5c"/>
+                                            <constraint firstAttribute="height" constant="130" id="xWU-g7-ZcW"/>
+                                        </constraints>
+                                        <userDefinedRuntimeAttributes>
+                                            <userDefinedRuntimeAttribute type="number" keyPath="cornerRadius">
+                                                <real key="value" value="20"/>
+                                            </userDefinedRuntimeAttribute>
+                                        </userDefinedRuntimeAttributes>
+                                    </view>
                                 </subviews>
-                                <color key="backgroundColor" white="0.0" alpha="0.64541416952054798" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <constraints>
-                                    <constraint firstItem="e4v-w3-h07" firstAttribute="leading" secondItem="8ux-2k-Vjr" secondAttribute="leading" constant="8" id="6XO-we-j6x"/>
-                                    <constraint firstItem="elQ-Qh-o09" firstAttribute="top" secondItem="8ux-2k-Vjr" secondAttribute="top" constant="13" id="g0s-El-aQE"/>
-                                    <constraint firstItem="e4v-w3-h07" firstAttribute="top" secondItem="8ux-2k-Vjr" secondAttribute="top" constant="8" id="g7R-19-YfC"/>
-                                    <constraint firstItem="elQ-Qh-o09" firstAttribute="centerX" secondItem="8ux-2k-Vjr" secondAttribute="centerX" id="q9S-w1-yg6"/>
+                                    <constraint firstAttribute="width" constant="240" id="51H-Qm-3Xe"/>
+                                    <constraint firstAttribute="height" constant="466" id="7Yz-g6-FXN"/>
                                 </constraints>
-                                <userDefinedRuntimeAttributes>
-                                    <userDefinedRuntimeAttribute type="number" keyPath="cornerRadius">
-                                        <real key="value" value="20"/>
-                                    </userDefinedRuntimeAttribute>
-                                </userDefinedRuntimeAttributes>
-                            </view>
+                            </stackView>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="e4v-w3-h07" customClass="CircleBtn" customModule="Places" customModuleProvider="target">
+                                <rect key="frame" x="16" y="20" width="30" height="30"/>
+                                <color key="backgroundColor" red="0.32235518330000001" green="0.77761485330000002" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="30" id="a60-YC-Pf0"/>
+                                    <constraint firstAttribute="width" constant="30" id="aYS-nL-rcB"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" name="AvenirNext-Medium" family="Avenir Next" pointSize="10"/>
+                                <state key="normal" title="Close">
+                                    <color key="titleColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                </state>
+                                <connections>
+                                    <action selector="closePressed:" destination="H9g-JM-gRi" eventType="touchUpInside" id="uAf-hU-aXY"/>
+                                </connections>
+                            </button>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                         <constraints>
-                            <constraint firstItem="8ux-2k-Vjr" firstAttribute="leading" secondItem="ze1-Jl-jZ5" secondAttribute="leadingMargin" constant="20" id="Cy7-LA-3MW"/>
-                            <constraint firstAttribute="trailingMargin" secondItem="8ux-2k-Vjr" secondAttribute="trailing" constant="20" id="Gyv-h3-fro"/>
-                            <constraint firstItem="8ux-2k-Vjr" firstAttribute="top" secondItem="KDM-dt-4Nd" secondAttribute="bottom" constant="15" id="Jgn-dq-JTX"/>
-                            <constraint firstItem="XbJ-Vj-AEE" firstAttribute="top" secondItem="8ux-2k-Vjr" secondAttribute="bottom" constant="30" id="bdQ-LL-4d4"/>
+                            <constraint firstItem="zcA-Mx-BJc" firstAttribute="leading" secondItem="ze1-Jl-jZ5" secondAttribute="leading" id="Ei3-9N-lLi"/>
+                            <constraint firstItem="e4v-w3-h07" firstAttribute="top" secondItem="KDM-dt-4Nd" secondAttribute="bottom" id="SJI-cq-7EQ"/>
+                            <constraint firstItem="QZw-TS-e8h" firstAttribute="centerX" secondItem="ze1-Jl-jZ5" secondAttribute="centerX" id="UcI-CX-Sps"/>
+                            <constraint firstItem="XbJ-Vj-AEE" firstAttribute="top" secondItem="zcA-Mx-BJc" secondAttribute="bottom" id="YPT-wV-Rzs"/>
+                            <constraint firstItem="e4v-w3-h07" firstAttribute="leading" secondItem="ze1-Jl-jZ5" secondAttribute="leadingMargin" id="a7Y-XV-3A6"/>
+                            <constraint firstItem="zcA-Mx-BJc" firstAttribute="top" secondItem="ze1-Jl-jZ5" secondAttribute="top" id="bRA-1h-NGQ"/>
+                            <constraint firstAttribute="trailing" secondItem="zcA-Mx-BJc" secondAttribute="trailing" id="eIM-yp-woE"/>
+                            <constraint firstItem="QZw-TS-e8h" firstAttribute="centerY" secondItem="ze1-Jl-jZ5" secondAttribute="centerY" id="ruA-Vx-shK"/>
                         </constraints>
                     </view>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="ur1-zH-ZsA" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1680" y="-590"/>
+            <point key="canvasLocation" x="1680" y="-589"/>
         </scene>
         <!--Camp ChatVC-->
         <scene sceneID="qhN-2Q-3Ii">
@@ -661,7 +701,7 @@
                                     <constraint firstAttribute="height" constant="45" id="zQy-Ub-pFh"/>
                                 </constraints>
                                 <fontDescription key="fontDescription" name="AvenirNext-Medium" family="Avenir Next" pointSize="19"/>
-                                <state key="normal" title="create acoount">
+                                <state key="normal" title="create account">
                                     <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
                                 <userDefinedRuntimeAttributes>
@@ -700,6 +740,7 @@
         </scene>
     </scenes>
     <resources>
+        <image name="campImageBG" width="2000" height="1328"/>
         <image name="frontBG" width="1920" height="1200"/>
         <image name="placesLogo" width="222" height="85"/>
         <image name="rearBG" width="2560" height="1600"/>
