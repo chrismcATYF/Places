@@ -13,6 +13,7 @@
 		19029B371F58FF650097E2EB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 19029B361F58FF650097E2EB /* Assets.xcassets */; };
 		19029B3A1F58FF650097E2EB /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 19029B381F58FF650097E2EB /* LaunchScreen.storyboard */; };
 		19029B451F58FF650097E2EB /* PlacesTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 19029B441F58FF650097E2EB /* PlacesTests.swift */; };
+		199CC6201F6A116A002DB40B /* UserDataService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 199CC61F1F6A116A002DB40B /* UserDataService.swift */; };
 		19AD74D21F5B816D00681A5D /* IntroVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 19AD74D11F5B816D00681A5D /* IntroVC.swift */; };
 		19AD74D41F5BB90B00681A5D /* FindCampVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 19AD74D31F5BB90B00681A5D /* FindCampVC.swift */; };
 		19AD74D61F5BB93500681A5D /* RateCampVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 19AD74D51F5BB93500681A5D /* RateCampVC.swift */; };
@@ -48,6 +49,7 @@
 		19029B401F58FF650097E2EB /* PlacesTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PlacesTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		19029B441F58FF650097E2EB /* PlacesTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlacesTests.swift; sourceTree = "<group>"; };
 		19029B461F58FF650097E2EB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		199CC61F1F6A116A002DB40B /* UserDataService.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UserDataService.swift; sourceTree = "<group>"; };
 		19AD74D11F5B816D00681A5D /* IntroVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = IntroVC.swift; sourceTree = "<group>"; };
 		19AD74D31F5BB90B00681A5D /* FindCampVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FindCampVC.swift; sourceTree = "<group>"; };
 		19AD74D51F5BB93500681A5D /* RateCampVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RateCampVC.swift; sourceTree = "<group>"; };
@@ -103,6 +105,7 @@
 		19029B2E1F58FF650097E2EB /* Places */ = {
 			isa = PBXGroup;
 			children = (
+				199CC61E1F6A113D002DB40B /* Services */,
 				19CA31611F624645006D3D62 /* Utilities */,
 				19F9799C1F5914FB00CAAAC8 /* View */,
 				19F979971F59110B00CAAAC8 /* Controllers */,
@@ -123,6 +126,14 @@
 				19029B461F58FF650097E2EB /* Info.plist */,
 			);
 			path = PlacesTests;
+			sourceTree = "<group>";
+		};
+		199CC61E1F6A113D002DB40B /* Services */ = {
+			isa = PBXGroup;
+			children = (
+				199CC61F1F6A116A002DB40B /* UserDataService.swift */,
+			);
+			name = Services;
 			sourceTree = "<group>";
 		};
 		19CA31611F624645006D3D62 /* Utilities */ = {
@@ -280,6 +291,7 @@
 				19F9799E1F59151800CAAAC8 /* RoundedBtn.swift in Sources */,
 				19AD74D61F5BB93500681A5D /* RateCampVC.swift in Sources */,
 				19029B321F58FF650097E2EB /* Places.swift in Sources */,
+				199CC6201F6A116A002DB40B /* UserDataService.swift in Sources */,
 				19029B301F58FF650097E2EB /* AppDelegate.swift in Sources */,
 				19AD74D81F5BB97D00681A5D /* CampChatVC.swift in Sources */,
 				19AD74D41F5BB90B00681A5D /* FindCampVC.swift in Sources */,
