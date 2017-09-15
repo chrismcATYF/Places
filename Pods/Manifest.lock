@@ -1,0 +1,35 @@
+PODS:
+  - Alamofire (4.5.1)
+  - Socket.IO-Client-Swift (11.0.0):
+    - StarscreamSocketIO (~> 8.0.1)
+  - StarscreamSocketIO (8.0.1)
+  - SwiftyJSON (4.0.0-alpha.1)
+
+DEPENDENCIES:
+  - Alamofire (from `https://github.com/Alamofire/Alamofire`)
+  - Socket.IO-Client-Swift
+  - SwiftyJSON (from `https://github.com/SwiftyJSON/SwiftyJSON`)
+
+EXTERNAL SOURCES:
+  Alamofire:
+    :git: https://github.com/Alamofire/Alamofire
+  SwiftyJSON:
+    :git: https://github.com/SwiftyJSON/SwiftyJSON
+
+CHECKOUT OPTIONS:
+  Alamofire:
+    :commit: b8995447518fd57af14c88a47f27434a16f60403
+    :git: https://github.com/Alamofire/Alamofire
+  SwiftyJSON:
+    :commit: 6b9f11e2bbd277f199b1c09fa65631bfc52d4a5d
+    :git: https://github.com/SwiftyJSON/SwiftyJSON
+
+SPEC CHECKSUMS:
+  Alamofire: 0224236301daac8c6578172706304b66b48236b5
+  Socket.IO-Client-Swift: 9cafa4459be23886c231942baeebb0df94f3989e
+  StarscreamSocketIO: 821a1a2597cc4735919fd5d7683a85c14b81bb8c
+  SwiftyJSON: c4d27c2ca659d5c91460cd17cc60fd212b26074d
+
+PODFILE CHECKSUM: 98f3eb25a6f163ffb8dcc65e80fa199cf47d7777
+
+COCOAPODS: 1.2.0
