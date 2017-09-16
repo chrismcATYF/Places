@@ -15,8 +15,8 @@ class PlacesVC: UIViewController {
         self.revealViewController().rearViewRevealWidth = self.view.frame.size.width - 30
     }
     
-    @IBAction func findCampPressed(_ sender: Any) {
-        performSegue(withIdentifier: TO_FIND_CAMP, sender: nil)
+    @IBAction func goCampingPressed(_ sender: Any) {
+        performSegue(withIdentifier: TO_GO_CAMP, sender: nil)
     }
     
     @IBAction func rateCampPressed(_ sender: Any) {

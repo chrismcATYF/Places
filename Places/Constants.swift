@@ -8,7 +8,7 @@
 
 import UIKit
 
-let TO_FIND_CAMP = "toFindCamp"
+let TO_GO_CAMP = "toGoCamping"
 let TO_RATE_CAMP = "toRateCamp"
 let TO_CAMP_CHAT = "toCampChat"
 let TO_CREATE_ACCOUNT = "toCreateAccount"

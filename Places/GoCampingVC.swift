@@ -1,14 +1,14 @@
 //
-//  FindCampVC.swift
+//  GoCampingVC.swift
 //  Places
 //
-//  Created by Chris McDonald on 9/2/17.
+//  Created by Chris McDonald on 9/16/17.
 //  Copyright © 2017 Chris McDonald. All rights reserved.
 //
 
 import UIKit
 
-class FindCampVC: UIViewController {
+class GoCampingVC: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
