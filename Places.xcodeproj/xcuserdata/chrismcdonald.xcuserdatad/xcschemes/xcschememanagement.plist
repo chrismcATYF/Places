@@ -4,6 +4,21 @@
 <dict>
 	<key>SchemeUserState</key>
 	<dict>
+		<key>Places Companion (Complication).xcscheme</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>8</integer>
+		</dict>
+		<key>Places Companion (Notification).xcscheme</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>7</integer>
+		</dict>
+		<key>Places Companion.xcscheme</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>6</integer>
+		</dict>
 		<key>Places.xcscheme</key>
 		<dict>
 			<key>orderHint</key>
@@ -18,6 +33,11 @@
 			<true/>
 		</dict>
 		<key>19029B3F1F58FF650097E2EB</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>1918EB1A1F6F2EF70048645E</key>
 		<dict>
 			<key>primary</key>
 			<true/>
