@@ -32,6 +32,7 @@
 		19AD74DA1F5BBA6900681A5D /* GradientView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 19AD74D91F5BBA6900681A5D /* GradientView.swift */; };
 		19AD74DE1F5BC2BA00681A5D /* RoundedView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 19AD74DD1F5BC2BA00681A5D /* RoundedView.swift */; };
 		19AD74E01F5BC59600681A5D /* CircleBtn.swift in Sources */ = {isa = PBXBuildFile; fileRef = 19AD74DF1F5BC59600681A5D /* CircleBtn.swift */; };
+		19BF38901FC15AA4007E8A96 /* DroppablePin.swift in Sources */ = {isa = PBXBuildFile; fileRef = 19BF388F1FC15AA4007E8A96 /* DroppablePin.swift */; };
 		19CA31631F6246B1006D3D62 /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 19CA31621F6246B1006D3D62 /* Constants.swift */; };
 		19D2A42F1F65E87C007C3258 /* ChatVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 19D2A42E1F65E87C007C3258 /* ChatVC.swift */; };
 		19DA25F21F6B6B7C00965FF1 /* AuthService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 19DA25F11F6B6B7C00965FF1 /* AuthService.swift */; };
@@ -122,6 +123,7 @@
 		19AD74D91F5BBA6900681A5D /* GradientView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GradientView.swift; sourceTree = "<group>"; };
 		19AD74DD1F5BC2BA00681A5D /* RoundedView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RoundedView.swift; sourceTree = "<group>"; };
 		19AD74DF1F5BC59600681A5D /* CircleBtn.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CircleBtn.swift; sourceTree = "<group>"; };
+		19BF388F1FC15AA4007E8A96 /* DroppablePin.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DroppablePin.swift; sourceTree = "<group>"; };
 		19CA31621F6246B1006D3D62 /* Constants.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
 		19D2A42E1F65E87C007C3258 /* ChatVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ChatVC.swift; sourceTree = "<group>"; };
 		19DA25F11F6B6B7C00965FF1 /* AuthService.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AuthService.swift; sourceTree = "<group>"; };
@@ -300,6 +302,7 @@
 				19AD74DD1F5BC2BA00681A5D /* RoundedView.swift */,
 				19AD74DF1F5BC59600681A5D /* CircleBtn.swift */,
 				1918EB461F6F371A0048645E /* GradientViewSecondary.swift */,
+				19BF388F1FC15AA4007E8A96 /* DroppablePin.swift */,
 			);
 			name = View;
 			sourceTree = "<group>";
@@ -550,6 +553,7 @@
 				19F9799B1F59117B00CAAAC8 /* SWRevealViewController.m in Sources */,
 				198BBE0E1F6DC57300464801 /* GoCampingVC.swift in Sources */,
 				19AD74DE1F5BC2BA00681A5D /* RoundedView.swift in Sources */,
+				19BF38901FC15AA4007E8A96 /* DroppablePin.swift in Sources */,
 				19AD74DA1F5BBA6900681A5D /* GradientView.swift in Sources */,
 				19AD74E01F5BC59600681A5D /* CircleBtn.swift in Sources */,
 				19CA31631F6246B1006D3D62 /* Constants.swift in Sources */,

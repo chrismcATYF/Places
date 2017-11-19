@@ -304,20 +304,34 @@
                                 </subviews>
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                 <constraints>
-                                    <constraint firstAttribute="bottom" secondItem="9aD-G0-gxN" secondAttribute="bottom" constant="8" id="1tR-TJ-1gc"/>
-                                    <constraint firstItem="9aD-G0-gxN" firstAttribute="centerX" secondItem="8DQ-ax-Nfa" secondAttribute="centerX" id="aXo-Ty-gVa"/>
+                                    <constraint firstAttribute="bottom" secondItem="9aD-G0-gxN" secondAttribute="bottom" constant="8" id="5UE-Ch-ksA"/>
                                     <constraint firstAttribute="height" constant="70" id="ev5-wz-zrF"/>
+                                    <constraint firstItem="9aD-G0-gxN" firstAttribute="centerX" secondItem="8DQ-ax-Nfa" secondAttribute="centerX" id="gP2-ak-2Al"/>
                                 </constraints>
                             </view>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="RFI-l4-HNE" customClass="CircleBtn" customModule="Places" customModuleProvider="target">
+                                <rect key="frame" x="260" y="508" width="40" height="40"/>
+                                <color key="backgroundColor" red="0.29910248519999999" green="0.75715631250000004" blue="0.97079652549999995" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="40" id="eTw-3v-Bk4"/>
+                                    <constraint firstAttribute="height" constant="40" id="ejR-dY-Df1"/>
+                                </constraints>
+                                <state key="normal" image="Locator"/>
+                                <connections>
+                                    <action selector="centerMapButtonPressed:" destination="b4c-3a-qod" eventType="touchUpInside" id="Lis-Bs-Kv5"/>
+                                </connections>
+                            </button>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                         <constraints>
                             <constraint firstItem="Dyj-Aj-pUW" firstAttribute="top" secondItem="EvG-MW-C8v" secondAttribute="bottom" id="IYc-u4-Pul"/>
+                            <constraint firstAttribute="trailing" secondItem="RFI-l4-HNE" secondAttribute="trailing" constant="20" id="LAD-8s-3a5"/>
                             <constraint firstItem="8DQ-ax-Nfa" firstAttribute="leading" secondItem="gde-rZ-XoV" secondAttribute="leading" id="N7e-A8-hu0"/>
                             <constraint firstAttribute="trailing" secondItem="EvG-MW-C8v" secondAttribute="trailing" id="OEz-tR-qsm"/>
                             <constraint firstItem="EvG-MW-C8v" firstAttribute="leading" secondItem="gde-rZ-XoV" secondAttribute="leading" id="aNw-Cf-f3i"/>
                             <constraint firstItem="EvG-MW-C8v" firstAttribute="top" secondItem="gde-rZ-XoV" secondAttribute="top" id="aex-Jd-u3P"/>
                             <constraint firstAttribute="trailing" secondItem="8DQ-ax-Nfa" secondAttribute="trailing" id="rlp-tr-lHk"/>
+                            <constraint firstItem="Dyj-Aj-pUW" firstAttribute="top" secondItem="RFI-l4-HNE" secondAttribute="bottom" constant="20" id="t60-xA-yCb"/>
                             <constraint firstItem="8DQ-ax-Nfa" firstAttribute="top" secondItem="gde-rZ-XoV" secondAttribute="top" id="tZN-LM-zhw"/>
                         </constraints>
                     </view>
@@ -670,6 +684,7 @@
         </scene>
     </scenes>
     <resources>
+        <image name="Locator" width="36" height="27"/>
         <image name="frontBG" width="1920" height="1200"/>
         <image name="placesLogo" width="222" height="85"/>
         <image name="rearBG" width="2560" height="1600"/>
