@@ -17,6 +17,9 @@ class CampsLocatorVC: UIViewController {
         super.viewDidLoad()
         
     }
+    @IBAction func closeButtonPressed(_ sender: Any) {
+        dismiss(animated: true, completion: nil)
+    }
 }
 
 extension CampsLocatorVC: MKMapViewDelegate {
