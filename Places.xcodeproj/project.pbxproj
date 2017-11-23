@@ -28,13 +28,11 @@
 		199CC6201F6A116A002DB40B /* UserDataService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 199CC61F1F6A116A002DB40B /* UserDataService.swift */; };
 		19AD74D21F5B816D00681A5D /* IntroVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 19AD74D11F5B816D00681A5D /* IntroVC.swift */; };
 		19AD74D61F5BB93500681A5D /* RateCampVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 19AD74D51F5BB93500681A5D /* RateCampVC.swift */; };
-		19AD74D81F5BB97D00681A5D /* CampChatVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 19AD74D71F5BB97D00681A5D /* CampChatVC.swift */; };
 		19AD74DA1F5BBA6900681A5D /* GradientView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 19AD74D91F5BBA6900681A5D /* GradientView.swift */; };
 		19AD74DE1F5BC2BA00681A5D /* RoundedView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 19AD74DD1F5BC2BA00681A5D /* RoundedView.swift */; };
 		19AD74E01F5BC59600681A5D /* CircleBtn.swift in Sources */ = {isa = PBXBuildFile; fileRef = 19AD74DF1F5BC59600681A5D /* CircleBtn.swift */; };
 		19BF38901FC15AA4007E8A96 /* DroppablePin.swift in Sources */ = {isa = PBXBuildFile; fileRef = 19BF388F1FC15AA4007E8A96 /* DroppablePin.swift */; };
 		19CA31631F6246B1006D3D62 /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 19CA31621F6246B1006D3D62 /* Constants.swift */; };
-		19D2A42F1F65E87C007C3258 /* ChatVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 19D2A42E1F65E87C007C3258 /* ChatVC.swift */; };
 		19DA25F21F6B6B7C00965FF1 /* AuthService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 19DA25F11F6B6B7C00965FF1 /* AuthService.swift */; };
 		19F9799B1F59117B00CAAAC8 /* SWRevealViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 19F9799A1F59117B00CAAAC8 /* SWRevealViewController.m */; };
 		19F9799E1F59151800CAAAC8 /* RoundedBtn.swift in Sources */ = {isa = PBXBuildFile; fileRef = 19F9799D1F59151800CAAAC8 /* RoundedBtn.swift */; };
@@ -119,13 +117,11 @@
 		199CC61F1F6A116A002DB40B /* UserDataService.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UserDataService.swift; sourceTree = "<group>"; };
 		19AD74D11F5B816D00681A5D /* IntroVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = IntroVC.swift; sourceTree = "<group>"; };
 		19AD74D51F5BB93500681A5D /* RateCampVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RateCampVC.swift; sourceTree = "<group>"; };
-		19AD74D71F5BB97D00681A5D /* CampChatVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CampChatVC.swift; sourceTree = "<group>"; };
 		19AD74D91F5BBA6900681A5D /* GradientView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GradientView.swift; sourceTree = "<group>"; };
 		19AD74DD1F5BC2BA00681A5D /* RoundedView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RoundedView.swift; sourceTree = "<group>"; };
 		19AD74DF1F5BC59600681A5D /* CircleBtn.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CircleBtn.swift; sourceTree = "<group>"; };
 		19BF388F1FC15AA4007E8A96 /* DroppablePin.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DroppablePin.swift; sourceTree = "<group>"; };
 		19CA31621F6246B1006D3D62 /* Constants.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
-		19D2A42E1F65E87C007C3258 /* ChatVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ChatVC.swift; sourceTree = "<group>"; };
 		19DA25F11F6B6B7C00965FF1 /* AuthService.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AuthService.swift; sourceTree = "<group>"; };
 		19F979981F59117A00CAAAC8 /* Places-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Places-Bridging-Header.h"; sourceTree = "<group>"; };
 		19F979991F59117B00CAAAC8 /* SWRevealViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SWRevealViewController.h; sourceTree = "<group>"; };
@@ -286,8 +282,6 @@
 				19029B311F58FF650097E2EB /* Places.swift */,
 				19AD74D11F5B816D00681A5D /* IntroVC.swift */,
 				19AD74D51F5BB93500681A5D /* RateCampVC.swift */,
-				19AD74D71F5BB97D00681A5D /* CampChatVC.swift */,
-				19D2A42E1F65E87C007C3258 /* ChatVC.swift */,
 				198BBE0D1F6DC57300464801 /* GoCampingVC.swift */,
 				1918EB441F6F328E0048645E /* CampsLocatorVC.swift */,
 			);
@@ -543,13 +537,11 @@
 				19AD74D21F5B816D00681A5D /* IntroVC.swift in Sources */,
 				1918EB471F6F371A0048645E /* GradientViewSecondary.swift in Sources */,
 				1918EB451F6F328E0048645E /* CampsLocatorVC.swift in Sources */,
-				19D2A42F1F65E87C007C3258 /* ChatVC.swift in Sources */,
 				19F9799E1F59151800CAAAC8 /* RoundedBtn.swift in Sources */,
 				19AD74D61F5BB93500681A5D /* RateCampVC.swift in Sources */,
 				19029B321F58FF650097E2EB /* Places.swift in Sources */,
 				199CC6201F6A116A002DB40B /* UserDataService.swift in Sources */,
 				19029B301F58FF650097E2EB /* AppDelegate.swift in Sources */,
-				19AD74D81F5BB97D00681A5D /* CampChatVC.swift in Sources */,
 				19F9799B1F59117B00CAAAC8 /* SWRevealViewController.m in Sources */,
 				198BBE0E1F6DC57300464801 /* GoCampingVC.swift in Sources */,
 				19AD74DE1F5BC2BA00681A5D /* RoundedView.swift in Sources */,

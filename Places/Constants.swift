@@ -20,8 +20,9 @@ let TO_LOCATOR_WITH_GPS = "toCampsWithGPS"
 let TO_LOCATOR_WITHOUT_GPS = "toCampsWithoutGPS"
 
 let API_KEY = "6BB82896BC6249C0B2A6D023416F8371"
-let API_REQUEST = "GET https://ridb.recreation.gov/api/v1/recareas"
-let API_AUTH = "?apikey=\(API_KEY)"
+let API_REQUEST = "https://ridb.recreation.gov/api/v1/recareas"
+let API_AUTH = "?apikey="
+let API_URL = "\(API_REQUEST)\(API_AUTH)\(API_KEY)"
 
 let LOGGED_IN_KEY = "loggedIn"
 let AUTH_TOKEN = "token"
