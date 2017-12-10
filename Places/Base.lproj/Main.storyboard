@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="13529" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="13771" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
     <device id="retina4_0" orientation="portrait">
         <adaptation id="fullscreen"/>
     </device>
     <dependencies>
         <deployment identifier="iOS"/>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="13527"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="13772"/>
         <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
@@ -433,15 +433,15 @@
                                 <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
-                            <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" spacing="45" translatesAutoresizingMaskIntoConstraints="NO" id="FeX-mu-c6a">
-                                <rect key="frame" x="37.5" y="184" width="185" height="145"/>
+                            <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" spacing="100" translatesAutoresizingMaskIntoConstraints="NO" id="FeX-mu-c6a">
+                                <rect key="frame" x="42.5" y="217" width="185" height="250"/>
                                 <subviews>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="4cF-d4-eVu" customClass="RoundedBtn" customModule="Places" customModuleProvider="target">
-                                        <rect key="frame" x="0.0" y="0.0" width="185" height="50"/>
+                                        <rect key="frame" x="0.0" y="0.0" width="185" height="75"/>
                                         <color key="backgroundColor" red="0.50896275043487549" green="0.81448692083358765" blue="0.84699803590774536" alpha="0.69274400684931503" colorSpace="custom" customColorSpace="sRGB"/>
                                         <constraints>
                                             <constraint firstAttribute="width" constant="185" id="OTT-F5-53d"/>
-                                            <constraint firstAttribute="height" constant="50" id="anE-LY-Rgp"/>
+                                            <constraint firstAttribute="height" constant="75" id="anE-LY-Rgp"/>
                                         </constraints>
                                         <fontDescription key="fontDescription" name="AvenirNext-Medium" family="Avenir Next" pointSize="18"/>
                                         <state key="normal" title="Go Camping!">
@@ -458,11 +458,11 @@
                                         </connections>
                                     </button>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="zty-3l-ohd" customClass="RoundedBtn" customModule="Places" customModuleProvider="target">
-                                        <rect key="frame" x="0.0" y="95" width="185" height="50"/>
+                                        <rect key="frame" x="0.0" y="175" width="185" height="75"/>
                                         <color key="backgroundColor" red="0.50896275040000005" green="0.81448692079999996" blue="0.8469980359" alpha="0.69274400680000003" colorSpace="custom" customColorSpace="sRGB"/>
                                         <constraints>
                                             <constraint firstAttribute="width" constant="185" id="Lai-yo-ydn"/>
-                                            <constraint firstAttribute="height" constant="50" id="oCx-Up-cZV"/>
+                                            <constraint firstAttribute="height" constant="75" id="oCx-Up-cZV"/>
                                         </constraints>
                                         <fontDescription key="fontDescription" name="AvenirNext-Medium" family="Avenir Next" pointSize="18"/>
                                         <state key="normal" title="Rate a Campsite">
@@ -493,8 +493,8 @@
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                         <constraints>
-                            <constraint firstItem="FeX-mu-c6a" firstAttribute="top" secondItem="TCv-vl-QVs" secondAttribute="bottom" constant="67" id="A0J-BS-6hj"/>
-                            <constraint firstItem="FeX-mu-c6a" firstAttribute="centerX" secondItem="Dpl-r9-frF" secondAttribute="centerX" constant="-30" id="Ank-xR-aJ8"/>
+                            <constraint firstItem="FeX-mu-c6a" firstAttribute="top" secondItem="TCv-vl-QVs" secondAttribute="bottom" constant="100" id="A0J-BS-6hj"/>
+                            <constraint firstItem="FeX-mu-c6a" firstAttribute="centerX" secondItem="Dpl-r9-frF" secondAttribute="centerX" constant="-25" id="Ank-xR-aJ8"/>
                             <constraint firstItem="TCv-vl-QVs" firstAttribute="top" secondItem="tS4-Qc-VJj" secondAttribute="bottom" constant="68" id="GVL-GU-Y29"/>
                             <constraint firstItem="TCv-vl-QVs" firstAttribute="centerX" secondItem="Dpl-r9-frF" secondAttribute="centerX" constant="-30" id="bhf-y3-vjP"/>
                         </constraints>
