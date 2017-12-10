@@ -9,6 +9,7 @@
 import UIKit
 import MapKit
 import CoreLocation
+import Alamofire
 
 class CampsLocatorVC: UIViewController, UIGestureRecognizerDelegate {
     
@@ -44,6 +45,10 @@ class CampsLocatorVC: UIViewController, UIGestureRecognizerDelegate {
     @IBAction func closeButtonPressed(_ sender: Any) {
         dismiss(animated: true, completion: nil)
     }
+}
+
+func cancelAllSessions() {
+    
 }
 
 extension CampsLocatorVC: CLLocationManagerDelegate {
